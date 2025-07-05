@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "daisyui": "^5.0.43",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "vite": "^7.0.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11"
+  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "---\r - HTML/CSS/JS\r - Node.js\r - Tailwind\r - daisyUI\r - 3 Espresso",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BulbasDanil/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BulbasDanil/Portfolio/issues"
+  },
+  "homepage": "https://github.com/BulbasDanil/Portfolio#readme"
+}
