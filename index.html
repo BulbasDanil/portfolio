@@ -39,7 +39,7 @@
                     <li><a>Contacts</a></li>
                 </ul>
             </div>
-            
+
         </div>
         <div class="divider divider-warning rounded-box m-0"></div>
     </header>
@@ -49,16 +49,13 @@
             <div class="flex items-center bg-base-100 min-h-screen">
                 <div
                     class="flex flex-row bg-base-100 rounded-box  lg:flex-row-reverse flex-1 justify-evenly h-[50vh] py-20">
-                    <img src="img/profile.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    <img src="media/profile.png" class="max-w-sm rounded-lg shadow-2xl" />
                     <div>
                         <h1 class="text-6xl font-bold">Hi, I am Danyl </h1>
                         <br>
                         <ul class="list-disc ml-5 text-xl">
                             <li>XR Developer</li>
-                            <li>сволочь</li>
-                            <li>токсік</li>
-                            <li>нехороша людина</li>
-                            
+                            <li>чортішо</li>
                         </ul>
                     </div>
                 </div>
@@ -66,11 +63,11 @@
 
             <!-- About me -->
             <div>
-                <div class="divider divider-warning divider-start bg-base-100 rounded-box p-6 text-3xl">About me</div>
+                <div class="divider divider-warning divider-center bg-base-100 rounded-box p-6 text-5xl my-15">About me
+                </div>
                 <div class="flex rounded-box bg-base-200 rounded-box p-6">
                     <div class="flex-2 ">
-                        <img src="img/about.png"
-                            class="max-w-sm rounded-lg shadow-2xl mx-auto" />
+                        <img src="media/about.png" class="max-w-sm rounded-lg shadow-2xl mx-auto" />
                     </div>
                     <div class="flex-3 mx-auto text-xl">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore sunt, consectetur unde
@@ -85,33 +82,46 @@
             </div>
 
             <!-- Projects -->
-            <div class="flex flex-col">
-                <div class="divider divider-warning divider-start bg-base-100 rounded-box p-6 text-3xl">Projects</div>
+            <div class="divider divider-warning divider-center bg-base-100 rounded-box p-6 text-5xl my-15">Projects
+            </div>
 
-                <!-- Project 1 -->
+            <div class="flex flex-col gap-y-15">
+
+
+                <!-- MR Chess Assistant -->
                 <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-box p-6">
-                    <div class="flex flex-col max-w-prose">
-                        <h2>Project Name</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore sunt, consectetur unde
-                            quibusdam a facilis, nulla minima provident ducimus saepe ut nisi officiis aliquid impedit
-                            odio distinctio necessitatibus aspernatur animi?
-                            Aspernatur quae suscipit provident blanditiis ullam minima consequuntur impedit veniam at
-                            obcaecati ipsam deserunt, quos quidem officia eum tempore, numquam accusantium iure atque,
-                            quod voluptates voluptate? Laudantium perferendis illum nemo.</p>
+                    <div class="flex flex-col max-w-prose text-xl">
+                        <h2 class="text-3xl">MR Chess Assistant</h2>
+                        <div class="divider divider-warning rounded-box m-0"></div>
+                        <p>My first attempt on combining things I love in ono project: XR, Computer Vision, Chess <br>
+                            <br>I couldn’t resist - I finally built a project I’ve been thinking about for a long time:
+                            using Meta Quest to get real-time best-move suggestions while playing chess.
+                        </p>
+
                         <ul class="list-disc ml-5  list-inside">
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
+                            <li>Uses the new PassthroughCameraAPI to capture a real-time image from the Meta Quest
+                                headset</li>
+                            <li>Sends the image to a server that detects the chessboard and converts it into a format
+                                readable by a chess engine</li>
+                            <li>Queries chess-api.com to get the best move and sends it back to the headset</li>
+                            <li>Maps the move from 2D image space to 3D world space</li>
+                            <li>Overlays a virtual piece on the real board to show the suggested move</li>
                         </ul>
                     </div>
                     <div>
                         <div class="carousel w-full">
+                            <video src="media/ChessMR/optimized.mp4" controls></video>
+                        </div>
+                    </div>
+                </div>
 
+
+                <!-- Peaceful Valley -->
+                <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-box p-6">
+                    <div>
+                        <div class="carousel max-w-128 max-h-128">
                             <div id="slide1" class="carousel-item relative w-full">
-                                <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-                                    class="w-full" />
+                                <img src="media/Valley/1.png" class="w-full" />
                                 <div
                                     class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                                     <a href="#slide4" class="btn btn-circle">❮</a>
@@ -119,8 +129,7 @@
                                 </div>
                             </div>
                             <div id="slide2" class="carousel-item relative w-full">
-                                <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                                    class="w-full" />
+                                <img src="media/Valley/2.png" class="w-full" />
                                 <div
                                     class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                                     <a href="#slide1" class="btn btn-circle">❮</a>
@@ -128,8 +137,7 @@
                                 </div>
                             </div>
                             <div id="slide3" class="carousel-item relative w-full">
-                                <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                                    class="w-full" />
+                                <img src="media/Valley/3.gif" class="w-full" />
                                 <div
                                     class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                                     <a href="#slide2" class="btn btn-circle">❮</a>
@@ -137,8 +145,7 @@
                                 </div>
                             </div>
                             <div id="slide4" class="carousel-item relative w-full">
-                                <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                                    class="w-full" />
+                                <img src="media/Valley/4.png" class="w-full" />
                                 <div
                                     class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                                     <a href="#slide3" class="btn btn-circle">❮</a>
@@ -147,69 +154,216 @@
                             </div>
                         </div>
                     </div>
+                    <div class="flex flex-col max-w-prose text-xl">
+                        <h2 class="text-3xl">Peaceful Valley</h2>
+                        <div class="divider divider-warning rounded-box m-0"></div>
+                        <p>My first attempt on combining things I love in ono project: XR, Computer Vision, Chess <br>
+                            <br>I couldn’t resist - I finally built a project I’ve been thinking about for a long time:
+                            using Meta Quest to get real-time best-move suggestions while playing chess.
+                        </p>
+
+                        <ul class="list-disc ml-5  list-inside">
+                            <li>Uses the new PassthroughCameraAPI to capture a real-time image from the Meta Quest
+                                headset</li>
+                            <li>Sends the image to a server that detects the chessboard and converts it into a format
+                                readable by a chess engine</li>
+                            <li>Queries chess-api.com to get the best move and sends it back to the headset</li>
+                            <li>Maps the move from 2D image space to 3D world space</li>
+                            <li>Overlays a virtual piece on the real board to show the suggested move</li>
+                        </ul>
+                        <a href="https://www.youtube.com/watch?v=byPcyoUJvHc"
+                            class="btn bg-[#FF0000] text-white border-[#C20000] my-10 min-w-[20%] mx-auto">
+                            <svg aria-label="YouTube logo" width="16" height="16" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor"
+                                    d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.3 3.5 12 3.5 12 3.5s-7.3 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2.1.6 9.4.6 9.4.6s7.3 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.2V8.8l6.2 3.2-6.2 3.2Z" />
+                            </svg>
+                            Full Playthrough ( ~5 min)
+                        </a>
+                    </div>
                 </div>
 
-                <!-- Project 2 -->
+                <!-- Ask Alice -->
                 <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-box p-6">
-                    <div>
-                        <div class="carousel w-full">
+                    <div class="flex flex-col max-w-prose text-xl">
+                        <h2 class="text-3xl">eXploRe a Wonderland of Inquiry </h2>
+                        <div class="divider divider-warning rounded-box m-0"></div>
+                        <p>My first attempt on combining things I love in ono project: XR, Computer Vision, Chess <br>
+                            <br>I couldn’t resist - I finally built a project I’ve been thinking about for a long time:
+                            using Meta Quest to get real-time best-move suggestions while playing chess.
+                        </p>
 
-                            <div id="slide1" class="carousel-item relative w-full">
-                                <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-                                    class="w-full" />
+                        <ul class="list-disc ml-5  list-inside">
+                            <li>Uses the new PassthroughCameraAPI to capture a real-time image from the Meta Quest
+                                headset</li>
+                            <li>Sends the image to a server that detects the chessboard and converts it into a format
+                                readable by a chess engine</li>
+                            <li>Queries chess-api.com to get the best move and sends it back to the headset</li>
+                            <li>Maps the move from 2D image space to 3D world space</li>
+                            <li>Overlays a virtual piece on the real board to show the suggested move</li>
+                        </ul>
+                        <a href="https://youtu.be/X5-dXYkd0J0"
+                            class="btn bg-[#FF0000] text-white border-[#C20000] my-10 min-w-[20%] mx-auto">
+                            <svg aria-label="YouTube logo" width="16" height="16" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor"
+                                    d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.3 3.5 12 3.5 12 3.5s-7.3 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2.1.6 9.4.6 9.4.6s7.3 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.2V8.8l6.2 3.2-6.2 3.2Z" />
+                            </svg>
+                            Full Playthrough ( ~4 min)
+                        </a>
+                    </div>
+                    <div>
+                        <div class="carousel max-w-128 max-h-128">
+                            <div id="slide5" class="carousel-item relative w-full">
+                                <img src="media/Alice/2.gif" class="w-full" />
                                 <div
                                     class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                                    <a href="#slide4" class="btn btn-circle">❮</a>
-                                    <a href="#slide2" class="btn btn-circle">❯</a>
+                                    <a href="#slide8" class="btn btn-circle">❮</a>
+                                    <a href="#slide6" class="btn btn-circle">❯</a>
                                 </div>
                             </div>
-                            <div id="slide2" class="carousel-item relative w-full">
-                                <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                                    class="w-full" />
+                            <div id="slide6" class="carousel-item relative w-full">
+                                <img src="media/Alice/3.gif" class="w-full" />
                                 <div
                                     class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                                    <a href="#slide1" class="btn btn-circle">❮</a>
-                                    <a href="#slide3" class="btn btn-circle">❯</a>
+                                    <a href="#slide5" class="btn btn-circle">❮</a>
+                                    <a href="#slide7" class="btn btn-circle">❯</a>
                                 </div>
                             </div>
-                            <div id="slide3" class="carousel-item relative w-full">
-                                <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                                    class="w-full" />
+                            <div id="slide7" class="carousel-item relative w-full">
+                                <img src="media/Alice/4.gif" class="w-full" />
                                 <div
                                     class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                                    <a href="#slide2" class="btn btn-circle">❮</a>
-                                    <a href="#slide4" class="btn btn-circle">❯</a>
+                                    <a href="#slide6" class="btn btn-circle">❮</a>
+                                    <a href="#slide8" class="btn btn-circle">❯</a>
                                 </div>
                             </div>
-                            <div id="slide4" class="carousel-item relative w-full">
-                                <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                                    class="w-full" />
+                            <div id="slide8" class="carousel-item relative w-full">
+                                <img src="media/Alice/1.png" class="w-full" />
                                 <div
                                     class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                                    <a href="#slide3" class="btn btn-circle">❮</a>
-                                    <a href="#slide1" class="btn btn-circle">❯</a>
+                                    <a href="#slide7" class="btn btn-circle">❮</a>
+                                    <a href="#slide5" class="btn btn-circle">❯</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col max-w-prose">
-                        <h2>Project Name</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore sunt, consectetur unde
-                            quibusdam a facilis, nulla minima provident ducimus saepe ut nisi officiis aliquid impedit
-                            odio distinctio necessitatibus aspernatur animi?
-                            Aspernatur quae suscipit provident blanditiis ullam minima consequuntur impedit veniam at
-                            obcaecati ipsam deserunt, quos quidem officia eum tempore, numquam accusantium iure atque,
-                            quod voluptates voluptate? Laudantium perferendis illum nemo.</p>
+
+                </div>
+
+                <!-- Alzheimer -->
+                <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-box p-6">
+                    <div class="carousel max-w-128 max-h-128">
+                        <div class="carousel">
+                            <div id="slide9" class="carousel-item relative w-full">
+                                <img src="media/Alz/1.jpg" class="w-full" />
+                                <div
+                                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                    <a href="#slide11" class="btn btn-circle">❮</a>
+                                    <a href="#slide10" class="btn btn-circle">❯</a>
+                                </div>
+                            </div>
+                            <div id="slide10" class="carousel-item relative w-full">
+                                <img src="media/Alz/2.jpg" class="w-full" />
+                                <div
+                                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                    <a href="#slide9" class="btn btn-circle">❮</a>
+                                    <a href="#slide11" class="btn btn-circle">❯</a>
+                                </div>
+                            </div>
+                            <div id="slide11" class="carousel-item relative w-full">
+                                <img src="media/Alz/3.png" class="w-full" />
+                                <div
+                                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                    <a href="#slide10" class="btn btn-circle">❮</a>
+                                    <a href="#slide12" class="btn btn-circle">❯</a>
+                                </div>
+                            </div>
+                            <div id="slide12" class="carousel-item relative w-full">
+                                <img src="media/about.png" class="w-full" />
+                                <div
+                                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                    <a href="#slide11" class="btn btn-circle">❮</a>
+                                    <a href="#slide9" class="btn btn-circle">❯</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col max-w-prose text-xl">
+                        <h2 class="text-3xl">Lateral Flow Strip Quantifier</h2>
+                        <div class="divider divider-warning rounded-box m-0"></div>
+                        <p>Web application that helps quantify results from Lateral Flow Strips developed by Dr.
+                            Chuanhai Cao for rapid, at-home detection of Alzheimer's biomarkers: Aβ42, Aβ40, and Aβ
+                            oligomers. These strips provide a visual readout, but without a built-in way to quantify
+                            results. We
+                            developed a solution to bridge that gap.
+                        </p>
+
                         <ul class="list-disc ml-5  list-inside">
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
+                            <li>Uses the new PassthroughCameraAPI to capture a real-time image from the Meta Quest
+                                headset</li>
+                            <li>Sends the image to a server that detects the chessboard and converts it into a format
+                                readable by a chess engine</li>
+                            <li>Queries chess-api.com to get the best move and sends it back to the headset</li>
+                            <li>Maps the move from 2D image space to 3D world space</li>
+                            <li>Overlays a virtual piece on the real board to show the suggested move</li>
                         </ul>
+                    </div>
+                </div>
+
+                <!-- Egmont Key -->
+                <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-box p-6">
+                    <div class="flex flex-col max-w-prose text-xl">
+                        <h2 class="text-3xl">Egmont Key AR Tour</h2>
+                        <div class="divider divider-warning rounded-box m-0"></div>
+                        <p>My first attempt on combining things I love in ono project: XR, Computer Vision, Chess <br>
+                            <br>I couldn’t resist - I finally built a project I’ve been thinking about for a long time:
+                            using Meta Quest to get real-time best-move suggestions while playing chess.
+                        </p>
+
+                        <ul class="list-disc ml-5  list-inside">
+                            <li>Uses the new PassthroughCameraAPI to capture a real-time image from the Meta Quest
+                                headset</li>
+                            <li>Sends the image to a server that detects the chessboard and converts it into a format
+                                readable by a chess engine</li>
+                            <li>Queries chess-api.com to get the best move and sends it back to the headset</li>
+                            <li>Maps the move from 2D image space to 3D world space</li>
+                            <li>Overlays a virtual piece on the real board to show the suggested move</li>
+                        </ul>
+                    </div>
+                    <div class="carousel max-h-128 max-w-[30%]">
+                        <div class="carousel ">
+                            <div id="slide13" class="carousel-item relative w-full">
+                                <img src="media/EgmontKey/1.jpg" class="w-auto mx-auto" />
+                                <div
+                                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                    <a href="#slide15" class="btn btn-circle">❮</a>
+                                    <a href="#slide14" class="btn btn-circle">❯</a>
+                                </div>
+                            </div>
+                            <div id="slide14" class="carousel-item relative w-full">
+                                <img src="media/EgmontKey/2.jpg" class="w-auto mx-auto" />
+                                <div
+                                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                    <a href="#slide13" class="btn btn-circle">❮</a>
+                                    <a href="#slide15" class="btn btn-circle">❯</a>
+                                </div>
+                            </div>
+                            <div id="slide15" class="carousel-item relative w-full">
+                                <img src="media/EgmontKey/3.jpg" class="w-auto mx-auto" />
+                                <div
+                                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                    <a href="#slide14" class="btn btn-circle">❮</a>
+                                    <a href="#slide13" class="btn btn-circle">❯</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
+
+
+
 
             </div>
 

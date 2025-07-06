@@ -3,8 +3,19 @@
 
 ### Built using
 ---
-- HTML/CSS/JS
+- HTML/CSS
 - Node.js
 - Tailwind
 - daisyUI
-- 3 Espresso
+- 5 Cups of Espresso
+
+
+### To-do
+---
+- Add separate projects page
+    - Add all of my projects there
+    - Leave only featured projects on the main page
+- Add the random fact of the hour about me
+
+
+
