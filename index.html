@@ -20,10 +20,6 @@
             font-weight: 400;
             font-style: normal;
         }
-
-        html {
-            font-size: 125%;
-        }
     </style>
 
 </head>
@@ -32,46 +28,51 @@
 
 <body>
     <header>
-        <div class="navbar bg-base-300 shadow-sm">
+        <div class="navbar bg-base-100 shadow-sm">
             <div class="flex-1">
                 <a class="btn btn-ghost text-xl">DANYL BULBAS</a>
             </div>
             <div class="flex-none">
-                <ul class="menu menu-horizontal px-1">
+                <ul class="menu menu-horizontal px-1 text-xl">
                     <li><a>About Me</a></li>
                     <li><a>Projects</a></li>
                     <li><a>Contacts</a></li>
                 </ul>
             </div>
+            
         </div>
+        <div class="divider divider-warning rounded-box m-0"></div>
     </header>
     <main>
         <div class="flex flex-col w-4/5 mx-auto">
             <!-- Jumbotron -->
             <div class="flex items-center bg-base-100 min-h-screen">
                 <div
-                    class="flex flex-row bg-base-300 rounded-box  lg:flex-row-reverse flex-1 justify-evenly h-[50vh] py-20">
-                    <img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-                        class="max-w-sm rounded-lg shadow-2xl" />
+                    class="flex flex-row bg-base-100 rounded-box  lg:flex-row-reverse flex-1 justify-evenly h-[50vh] py-20">
+                    <img src="img/profile.png" class="max-w-sm rounded-lg shadow-2xl" />
                     <div>
-                        <h1 class="text-5xl font-bold">Hi, </h1>
-                        <p class="py-6">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
-                        </p>
+                        <h1 class="text-6xl font-bold">Hi, I am Danyl </h1>
+                        <br>
+                        <ul class="list-disc ml-5 text-xl">
+                            <li>XR Developer</li>
+                            <li>сволочь</li>
+                            <li>токсік</li>
+                            <li>нехороша людина</li>
+                            
+                        </ul>
                     </div>
                 </div>
             </div>
 
             <!-- About me -->
             <div>
-                <div class="divider divider-primary bg-base-300 rounded-box p-6 ">About me</div>
+                <div class="divider divider-warning divider-start bg-base-100 rounded-box p-6 text-3xl">About me</div>
                 <div class="flex rounded-box bg-base-200 rounded-box p-6">
-                    <div class="flex-1">
-                        <img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-                            class="max-w-sm rounded-lg shadow-2xl" />
+                    <div class="flex-2 ">
+                        <img src="img/about.png"
+                            class="max-w-sm rounded-lg shadow-2xl mx-auto" />
                     </div>
-                    <div class="flex-1 max-w-prose">
+                    <div class="flex-3 mx-auto text-xl">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore sunt, consectetur unde
                             quibusdam a facilis, nulla minima provident ducimus saepe ut nisi officiis aliquid impedit
                             odio distinctio necessitatibus aspernatur animi?
@@ -85,7 +86,7 @@
 
             <!-- Projects -->
             <div class="flex flex-col">
-                <div class="divider divider-primary bg-base-300 rounded-box p-6">Projects</div>
+                <div class="divider divider-warning divider-start bg-base-100 rounded-box p-6 text-3xl">Projects</div>
 
                 <!-- Project 1 -->
                 <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-box p-6">
@@ -214,7 +215,7 @@
 
             <!-- Contacts -->
             <div>
-                <div class="divider divider-primary bg-base-300 rounded-box p-6">Contacts</div>
+                <div class="divider divider-warning divider-start bg-base-100 rounded-box p-6 text-3xl">Contacts</div>
                 <div class="flex flex-row bg-base-200 rounded-box p-6 justify-center gap-x-10">
                     <!-- Email -->
                     <button class="btn bg-white text-black border-[#e5e5e5]">
