@@ -46,13 +46,13 @@
         <!-- Jumbotron -->
         <div class="flex items-center bg-base-100 min-h-screen">
           <div class="flex flex-row bg-base-100 rounded-lg lg:flex-row-reverse flex-1 justify-evenly h-[55vh] py-20">
-            <img src="media/logo.jpg" class="rounded-lg shadow-2xl" />
+            <img src="media/profile.png" class="rounded-lg shadow-2xl" />
             <div>
               <h1 class="text-6xl font-bold">Hi, I am Danyl</h1>
               <br />
               <ul class="list-disc ml-5 text-xl">
                 <li>XR Developer</li>
-                <li>чортішо</li>
+                <li>чортішо і збоку бантик</li>
               </ul>
             </div>
           </div>
@@ -216,25 +216,19 @@
             <div class="flex flex-col max-w-prose text-xl">
               <h2 class="text-3xl">eXploRe a Wonderland of Inquiry</h2>
               <div class="divider divider-warning rounded-lg m-0"></div>
-              <p>
-                My first attempt on combining things I love in ono project: XR, Computer Vision, Chess <br />
-                <br />I couldn’t resist - I finally built a project I’ve been thinking about for a long time: using Meta
-                Quest to get real-time best-move suggestions while playing chess.
-              </p>
 
-              <ul class="list-disc ml-5 list-inside">
-                <li>Uses the new PassthroughCameraAPI to capture a real-time image from the Meta Quest headset</li>
-                <li>
-                  Sends the image to a server that detects the chessboard and converts it into a format readable by a
-                  chess engine
-                </li>
-                <li>Queries chess-api.com to get the best move and sends it back to the headset</li>
-                <li>Maps the move from 2D image space to 3D world space</li>
-                <li>Overlays a virtual piece on the real board to show the suggested move</li>
-              </ul>
+              <p>
+                This project is a VR game for school kids studying Alice in Wonderland. It allows kids to follow Alice's
+                journey while challenging their logic and problem-solving skills. 
+              </p>
+              <br />
+              <p>
+                For me and our development team, this was our first professional VR project. Our client was very
+                flexible with the mechanics, giving us room to experiment with VR - which we enthusiastically did.
+              </p>
               <a
                 href="https://youtu.be/X5-dXYkd0J0"
-                class="btn bg-[#FF0000] text-white border-[#C20000] my-10 min-w-[20%] mx-auto"
+                class="btn bg-[#FF0000] text-white border-[#C20000] mt-10 min-w-[20%] mx-auto"
               >
                 <svg
                   aria-label="YouTube logo"
@@ -250,6 +244,34 @@
                 </svg>
                 Full Playthrough ( ~4 min)
               </a>
+              <div class="collapse">
+                <div class="collapse-title cursor-pointer font-bold px-0">▼ Read more</div>
+
+                <input type="checkbox" class="peer" />
+
+                <div class="collapse-content space-y-4 px-0">
+                  <p>The project consists of three main parts:</p>
+                  <ul class="list-disc ml-5 list-inside">
+                    <li>Intro level with interactive menu</li>
+                    <li>Hallway scene, acting as a hub between levels</li>
+                    <li>Boat building level, challenging kids to build a boat to cross the river</li>
+                  </ul>
+
+                  <p>I worked on the boat building, and my main challenges were developing:</p>
+                  <ul class="list-disc ml-5 list-inside">
+                    <li>Boats assembly (<strong>gif 1</strong>)</li>
+                    <li>Paddling (<strong>gif 2</strong>)</li>
+                    <li>Resizing effects (<strong>gif 3</strong>)</li>
+                  </ul>
+
+                  <p>
+                    While the first two were relatively easy to implement, the last one proved quite challenging. Beyond
+                    figuring out how to properly scale the player without breaking the game, this was when I first
+                    experienced motion sickness in VR and had to mitigate it. In the end, it worked smoothly, but
+                    testing and development was physically demanding.
+                  </p>
+                </div>
+              </div>
             </div>
             <div>
               <div class="carousel max-w-128 max-h-128">
