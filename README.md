@@ -17,6 +17,7 @@
     - Leave only featured projects on the main page
 - Add the random fact of the hour about me
 - Convert media to webX
+- Add links to the Github
 
 
 

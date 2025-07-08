@@ -120,8 +120,6 @@
                       <li>App maps the move from 2D image space to 3D world space</li>
                       <li>Virtual piece is overlayed over the real board showing the suggested move</li>
                     </ul>
-
-                    <br />
                     <p>
                       It's a perfect substitute for other <em>less comfy assisting devices</em> that can help you win
                       any tournament. One downside – you won't go unnoticed with the Meta Quest on your head. Hopefully,
@@ -185,11 +183,6 @@
                 Visuals, story, music, and sound effects - all of these were selected to build something enjoyable to
                 play. All these elements were used to convey a message: we must protect our planet.
               </p>
-              <br />
-              <p>
-                Yes, the message can be corny, but for a team of technical people, crafting something artistic felt like
-                unlocking a whole new dimension of creativity.
-              </p>
               <a
                 href="https://www.youtube.com/watch?v=byPcyoUJvHc"
                 class="btn bg-[#FF0000] text-white border-[#C20000] my-10 min-w-[20%] mx-auto"
@@ -219,7 +212,7 @@
 
               <p>
                 This project is a VR game for school kids studying Alice in Wonderland. It allows kids to follow Alice's
-                journey while challenging their logic and problem-solving skills. 
+                journey while challenging their logic and problem-solving skills.
               </p>
               <br />
               <p>
@@ -319,7 +312,7 @@
                   </div>
                 </div>
                 <div id="slide10" class="carousel-item relative w-full">
-                  <img src="media/Alz/2.jpg" class="w-full" />
+                  <img src="media/Alz/5.png" class="w-full" />
                   <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide9" class="btn btn-circle">❮</a>
                     <a href="#slide11" class="btn btn-circle">❯</a>
@@ -499,4 +492,22 @@
       </div>
     </main>
   </body>
+
+  <script>
+    document.querySelectorAll(".carousel a.btn-circle").forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        const target = document.querySelector(link.getAttribute("href"));
+        if (!target) return;
+
+        target.scrollIntoView({
+          behavior: "smooth",
+          block: "nearest",
+          inline: "start",
+        });
+      });
+    });
+  </script>
+  
 </html>
