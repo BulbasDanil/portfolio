@@ -27,16 +27,35 @@
 
 <body>
   <header>
-    <nav class="navbar fixed top-0 left-0 w-full z-50 bg-base-100/90 backdrop-blur shadow-sm border-b-2 border-warning">
-      <div class="flex-1">
-        <a class="btn btn-ghost text-xl">DANYL BULBAS</a>
+    <nav
+      class="navbar fixed top-0 left-0 w-full z-50 bg-base-100/90 backdrop-blur shadow-sm border-b-2 border-warning px-4">
+      <!-- mobile dropdown -->
+      <div class="navbar-start lg:hidden">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost btn-square">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </label>
+          <ul tabindex="0" class="menu menu-compact dropdown-content mt-2 p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl ml-2">DANYL BULBAS</a>
       </div>
 
-      <ul class="menu menu-horizontal px-1 text-xl">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contacts">Contacts</a></li>
-      </ul>
+      <!-- desktop layout -->
+      <div class="hidden lg:flex w-full items-center justify-between">
+        <a class="btn btn-ghost text-xl">DANYL BULBAS</a>
+        <ul class="menu menu-horizontal px-1 text-xl">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   <main>
@@ -61,7 +80,8 @@
       </div>
 
       <!-- About me -->
-      <div id="about" class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl my-15">
+      <div id="about" class="mb-10"></div>
+      <div class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl my-15">
         About me
       </div>
       <div>
@@ -99,7 +119,8 @@
       </div>
 
       <!-- Projects -->
-      <div id="projects" class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl my-15">
+      <div id="projects" class="mb-10"></div>
+      <div class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl my-15">
         Projects
       </div>
 
@@ -412,7 +433,8 @@
       </div>
 
       <!-- Contacts -->
-      <div id="contacts" class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl mt-15 mb-5">
+      <div id="contacts"></div>
+      <div class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl mt-15 mb-5">
         Contacts
       </div>
       <div class="mb-20">
