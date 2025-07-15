@@ -46,7 +46,7 @@
         <section
           class="flex flex-col lg:flex-row-reverse items-center justify-evenly bg-base-100 min-h-screen py-20 gap-8">
           <img src="media/profile.png" alt="Profile" class="rounded-lg shadow-2xl w-3/4 sm:w-1/2 lg:w-1/3" />
-          <div class="text-center lg:text-left">
+          <div class="text-left">
             <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold">Hi, I am Danyl</h1>
             <ul class="list-disc ml-5 text-lg sm:text-xl my-6">
               <li class="my-2">XR Developer</li>
@@ -217,7 +217,7 @@
             <h2 class="text-3xl">eXploRe a Wonderland of Inquiry</h2>
             <div class="divider divider-warning rounded-lg m-0"></div>
 
-            <p>
+            <p class="my-5">
               VR game for school kids studying Alice in Wonderland. It allows kids to follow Alice's journey while
               challenging their logic and problem-solving skills.
             </p>
@@ -299,7 +299,7 @@
         </div>
 
         <!-- Alzheimer -->
-        <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
+        <div class="flex flex-col md:flex-row justify-evenly gap-y-6 md:gap-x-6 px-6 bg-base-200 rounded-lg p-6">
           <div class="carousel max-w-128 max-h-128">
             <div class="carousel">
               <div id="slide9" class="carousel-item relative w-full">
@@ -337,31 +337,42 @@
             <div class="divider divider-warning rounded-lg m-0"></div>
             <p>
               Interdisciplinary project made for the immunologist Dr. Chuanhai Cao. He developed rapid tests for
-              detecting Alzheimer's biomarkers: Aβ42, Aβ40, and Aβ oligomers.
+              detecting Alzheimer's biomarkers: Aβ42, Aβ40, and Aβ oligomers. We digitized the results processing.
             </p>
-            <br />
-            <p>
-              His vision is to make testing accessible to everyone. The strip significantly lowers testing costs from
-              thousands to less than $100, while providing results within minutes instead of days. These results are
-              given as a visual readout, but without a built-in way to quantify results.
-            </p>
-            <br />
-            <p>
-              We developed an image processing application that quantifies the visual readout through optical density
-              analysis, converting subjective line intensity into objective data. In addition, we have also built an
-              accessible web page where users can easily upload images and view their test results in a clear,
-              user-friendly format.
-            </p>
+            <div class="collapse">
+              <div class="collapse-title cursor-pointer font-bold px-0">▼ Read more</div>
+
+              <input type="checkbox" class="peer" />
+
+              <div class="collapse-content space-y-4 px-0">
+                <p>
+                  His vision is to make testing accessible to everyone. The strip significantly lowers testing costs
+                  from
+                  thousands to less than $100, while providing results within minutes instead of days. These results are
+                  given as a visual readout, but without a built-in way to quantify results.
+                </p>
+                <p>
+                  We developed an image processing application that quantifies the visual readout through optical
+                  density
+                  analysis, converting subjective line intensity into objective data. In addition, we have also built an
+                  accessible web page where users can easily upload images and view their test results in a clear,
+                  user-friendly format.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
         <!-- Egmont Key -->
-        <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
+        <div class="flex flex-col md:flex-row justify-evenly gap-y-6 md:gap-x-6 px-6 bg-base-200 rounded-lg p-6">
           <div class="flex flex-col max-w-prose text-xl">
             <h2 class="text-3xl">Egmont Key AR Tour</h2>
             <div class="divider divider-warning rounded-lg m-0"></div>
             <p>
-              My first professional project. Mobile XR tour guide. Developed for Egmont Key State Park, an island
+              My first professional project.
+            </p>
+            <p class="my-5">
+              Mobile XR tour guide. Developed for Egmont Key State Park, an island
               near Tampa serving as a habitat for turtles and mosquitoes. The app allowed visitors to navigate around
               the island using Bluetooth trackers and see the historical appearance of virtually restored buildings
               through AR.
@@ -372,7 +383,7 @@
               special place in my heart as the one that introduced me to the world of XR.
             </p>
           </div>
-          <div class="carousel max-h-128 max-w-[30%]">
+          <div class="carousel max-w-128 max-h-128">
             <div class="carousel">
               <div id="slide13" class="carousel-item relative w-full">
                 <img src="media/EgmontKey/1.jpg" class="w-auto mx-auto" />
