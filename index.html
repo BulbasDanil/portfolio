@@ -1,529 +1,479 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Danyl Bulbas</title>
 
-    <link rel="icon" type="image/x-icon" href="/media/favicon.jpg" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danyl Bulbas</title>
 
-    <link rel="stylesheet" href="styles/style.css" />
+  <link rel="icon" type="image/x-icon" href="/media/favicon.jpg" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="styles/style.css" />
 
-    <style>
-      body {
-        font-family: "IBM Plex Sans Condensed", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-    </style>
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
 
-  <body>
-    <header>
-      <nav
-        class="navbar fixed top-0 left-0 w-full z-50 bg-base-100/90 backdrop-blur shadow-sm border-b-2 border-warning"
-      >
-        <div class="flex-1">
-          <a class="btn btn-ghost text-xl">DANYL BULBAS</a>
-        </div>
+  <style>
+    body {
+      font-family: "IBM Plex Sans Condensed", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
+</head>
 
-        <ul class="menu menu-horizontal px-1 text-xl">
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="flex flex-col w-4/5 mx-auto">
+<body>
+  <header>
+    <nav class="navbar fixed top-0 left-0 w-full z-50 bg-base-100/90 backdrop-blur shadow-sm border-b-2 border-warning">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl">DANYL BULBAS</a>
+      </div>
+
+      <ul class="menu menu-horizontal px-1 text-xl">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="flex flex-col w-4/5 mx-auto">
+      <div class="container mx-auto px-4">
         <!-- Jumbotron -->
-        <div class="flex items-center bg-base-100 min-h-screen">
-          <div class="flex flex-row bg-base-100 rounded-lg lg:flex-row-reverse flex-1 justify-evenly h-[55vh] py-20">
-            <img src="media/profile.png" class="rounded-lg shadow-2xl" />
+        <section
+          class="flex flex-col lg:flex-row-reverse items-center justify-evenly bg-base-100 min-h-screen py-20 gap-8">
+          <img src="media/profile.png" alt="Profile" class="rounded-lg shadow-2xl w-3/4 sm:w-1/2 lg:w-1/3" />
+          <div class="text-center lg:text-left">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold">Hi, I am Danyl</h1>
+            <ul class="list-disc ml-5 text-lg sm:text-xl my-6">
+              <li class="my-2">XR Developer</li>
+              <li class="my-2">Building XR and Computer Vision</li>
+              <li class="my-2">Open for internship or junior role</li>
+            </ul>
+            <a href="#contacts" class="inline-block text-xl sm:text-2xl text-warning hover:underline">
+              <b>Let's connect</b>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <!-- About me -->
+      <div id="about" class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl my-15">
+        About me
+      </div>
+      <div>
+        <div class="flex flex-col lg:flex-row rounded-lg bg-base-200 rounded-lg p-6">
+          <div class="flex-2">
+            <img src="media/logo.webp" class="w-full max-w-xs mx-auto rounded-lg shadow-2xl my-10" />
+          </div>
+          <div class="flex-3 mx-auto text-xl">
+            <br>
+            <p>Two things drive me:</p>
+            <ul class="list-disc ml-5 list-inside">
+              <li class="my-1">Solving hard tasks</li>
+              <li class="my-1">Exploring new horizons</li>
+            </ul>
+            <br />
+            <p>
+              This drive brought me to the realm of computer science. Discipline where both of these components are
+              critical to success.
+            </p>
+            <br />
+            <p>
+              Over the past couple of years, I've been exploring and working in various areas of development, and I've
+              found one that resonates with me the most:<b> XR</b>. <br />
+              <br />
+              The rapidly developing field of XR always presents challenges to overcome and undocumented features to
+              explore.
+            </p>
+            <br />
+            <p>
+              So here I am, working as an XR Research Assistant at my University of South Florida and pursuing
+              personal projects to keep learning.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div id="projects" class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl my-15">
+        Projects
+      </div>
+
+      <div class="flex flex-col gap-y-15">
+        <!-- MR Chess Assistant -->
+        <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
+          <div class="flex flex-col max-w-prose text-xl">
+            <h2 class="text-3xl">MR Chess Assistant</h2>
+            <div class="divider divider-warning rounded-lg m-0"></div>
             <div>
-              <h1 class="text-6xl font-bold">Hi, I am Danyl</h1>
-              <br />
-              <ul class="list-disc ml-5 text-xl">
-                <li class="my-3">XR Developer</li>
-                <li class="my-3">Building XR and Computer Vision</li>
-                <li class="my-3">Open for internship or junior role</li>
-              </ul>
-              <br />
-              <a class="text-2xl text-warning" href="#contacts"> <b>Let's connect</b></a>
-            </div>
-          </div>
-        </div>
+              <p>
+                My first attempt at combining things I am interested in into one project: Mixed Reality, Computer
+                Vision, and Chess
+              </p>
 
-        <!-- About me -->
-        <div id="about" class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl my-15">
-          About me
-        </div>
-        <div>
-          <div class="flex flex-col lg:flex-row rounded-lg bg-base-200 rounded-lg p-6">
-            <div class="flex-2">
-              <img src="media/logo.webp" class="w-full max-w-xs mx-auto rounded-lg shadow-2xl my-10" />
-            </div>
-            <div class="flex-3 mx-auto text-xl">
-              <br>
-              <p>Two things drive me:</p>
-              <ul class="list-disc ml-5 list-inside">
-                <li class="my-1">Solving hard tasks</li>
-                <li class="my-1">Exploring new horizons</li>
-              </ul>
               <br />
               <p>
-                This drive brought me to the realm of computer science. Discipline where both of these components are
-                critical to success.
+                When Meta released the Passthrough API for their headsets, I couldn't resist building a project I've
+                been thinking about for a while: a chess assistant that gives you hints on the best moves during your
+                turn.
               </p>
-              <br />
-              <p>
-                Over the past couple of years, I've been exploring and working in various areas of development, and I've
-                found one that resonates with me the most:<b> XR</b>. <br />
-                <br />
-                The rapidly developing field of XR always presents challenges to overcome and undocumented features to
-                explore.
-              </p>
-              <br />
-              <p>
-                So here I am, working as an XR Research Assistant at my University of South Florida and pursuing
-                personal projects to keep learning.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Projects -->
-        <div id="projects" class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl my-15">
-          Projects
-        </div>
-
-        <div class="flex flex-col gap-y-15">
-          <!-- MR Chess Assistant -->
-          <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
-            <div class="flex flex-col max-w-prose text-xl">
-              <h2 class="text-3xl">MR Chess Assistant</h2>
-              <div class="divider divider-warning rounded-lg m-0"></div>
-              <div>
-                <p>
-                  My first attempt at combining things I am interested in into one project: Mixed Reality, Computer
-                  Vision, and Chess
-                </p>
-
-                <br />
-                <p>
-                  When Meta released the Passthrough API for their headsets, I couldn't resist building a project I've
-                  been thinking about for a while: a chess assistant that gives you hints on the best moves during your
-                  turn.
-                </p>
-                <div class="collapse">
-                  <div class="collapse-title cursor-pointer font-bold px-0">▼ Read more</div>
-
-                  <input type="checkbox" class="peer" />
-
-                  <div class="collapse-content space-y-4 px-0">
-                    <p>The app works like this:</p>
-
-                    <ul class="list-disc ml-5 list-inside">
-                      <li>Captures a real-time image from the headset</li>
-                      <li>Sends the it to a server that detects pieces and maps them to FEN format</li>
-                      <li>
-                        Server queries <a href="http://chess-api.com" target="_blank">chess-api.com</a> to get the best
-                        move and sends it back
-                      </li>
-                      <li>App maps the move from 2D image space to 3D world space</li>
-                      <li>Virtual piece is overlayed over the real board showing the suggested move</li>
-                    </ul>
-                    <p>
-                      It's a perfect substitute for other <em>less comfy assisting devices</em> that can help you win
-                      any tournament. One downside – you won't go unnoticed with the Meta Quest on your head. Hopefully,
-                      next-gen AR glasses will solve this issue, and I can update the app.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="carousel w-full">
-                <video src="media/ChessMR/optimized.mp4" controls></video>
-              </div>
-            </div>
-          </div>
-
-          <!-- Peaceful Valley -->
-          <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
-            <div>
-              <div class="carousel max-w-128 max-h-128">
-                <div id="slide1" class="carousel-item relative w-full">
-                  <img src="media/Valley/1.png" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img src="media/Valley/2.png" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img src="media/Valley/3.gif" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                  <img src="media/Valley/4.png" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="flex flex-col max-w-prose text-xl">
-              <h2 class="text-3xl">Peaceful Valley</h2>
-              <div class="divider divider-warning rounded-lg m-0"></div>
-              <p>A mixed-reality storytelling experience designed to raise environmental awareness</p>
-              <br />
-              <p>
-                This one is special. It's the first Hackathon project that earned me and my team a prize. It's also the
-                first project where our team prioritized artistic style over fancy mechanics. We wanted to create a wow
-                effect not by using unseen features, but through how the game feels.
-              </p>
-              <br />
-              <p>
-                Visuals, story, music, and sound effects - all of these were selected to build something enjoyable to
-                play. All these elements were used to convey a message: we must protect our planet.
-              </p>
-              <a
-                href="https://www.youtube.com/watch?v=byPcyoUJvHc"
-                class="btn bg-[#FF0000] text-white border-[#C20000] my-10 min-w-[20%] mx-auto"
-              >
-                <svg
-                  aria-label="YouTube logo"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.3 3.5 12 3.5 12 3.5s-7.3 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2.1.6 9.4.6 9.4.6s7.3 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.2V8.8l6.2 3.2-6.2 3.2Z"
-                  />
-                </svg>
-                Full Playthrough ( ~5 min)
-              </a>
-            </div>
-          </div>
-
-          <!-- Ask Alice -->
-          <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
-            <div class="flex flex-col max-w-prose text-xl">
-              <h2 class="text-3xl">eXploRe a Wonderland of Inquiry</h2>
-              <div class="divider divider-warning rounded-lg m-0"></div>
-
-              <p>
-                VR game for school kids studying Alice in Wonderland. It allows kids to follow Alice's journey while
-                challenging their logic and problem-solving skills.
-              </p>
-              <br />
-              <p>
-                For me and our development team, this was our first professional VR project. Our client was flexible
-                with the mechanics, giving us room to experiment with VR - which we enthusiastically did.
-              </p>
-              <a
-                href="https://youtu.be/X5-dXYkd0J0"
-                class="btn bg-[#FF0000] text-white border-[#C20000] mt-10 min-w-[20%] mx-auto"
-              >
-                <svg
-                  aria-label="YouTube logo"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.3 3.5 12 3.5 12 3.5s-7.3 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2.1.6 9.4.6 9.4.6s7.3 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.2V8.8l6.2 3.2-6.2 3.2Z"
-                  />
-                </svg>
-                Full Playthrough ( ~4 min)
-              </a>
               <div class="collapse">
                 <div class="collapse-title cursor-pointer font-bold px-0">▼ Read more</div>
 
                 <input type="checkbox" class="peer" />
 
                 <div class="collapse-content space-y-4 px-0">
-                  <p>The project consists of three main parts:</p>
-                  <ul class="list-disc ml-5 list-inside">
-                    <li>Intro level with interactive menu</li>
-                    <li>Hallway scene, acting as a hub between levels</li>
-                    <li>Boat building level, challenging kids to build a boat to cross the river</li>
-                  </ul>
+                  <p>The app works like this:</p>
 
-                  <p>I worked on the boat building, and my main challenges were developing:</p>
                   <ul class="list-disc ml-5 list-inside">
-                    <li>Boats assembly (<strong>gif 1</strong>)</li>
-                    <li>Paddling (<strong>gif 2</strong>)</li>
-                    <li>Resizing effects (<strong>gif 3</strong>)</li>
+                    <li>Captures a real-time image from the headset</li>
+                    <li>Sends the it to a server that detects pieces and maps them to FEN format</li>
+                    <li>
+                      Server queries <a href="http://chess-api.com" target="_blank">chess-api.com</a> to get the best
+                      move and sends it back
+                    </li>
+                    <li>App maps the move from 2D image space to 3D world space</li>
+                    <li>Virtual piece is overlayed over the real board showing the suggested move</li>
                   </ul>
-
                   <p>
-                    While the first two were relatively easy to implement, the last one proved quite challenging. Beyond
-                    figuring out how to properly scale the player without breaking the game, this was when I first
-                    experienced motion sickness in VR and had to mitigate it. In the end, it worked smoothly, but
-                    testing and development was physically demanding.
+                    It's a perfect substitute for other <em>less comfy assisting devices</em> that can help you win
+                    any tournament. One downside – you won't go unnoticed with the Meta Quest on your head. Hopefully,
+                    next-gen AR glasses will solve this issue, and I can update the app.
                   </p>
                 </div>
               </div>
             </div>
-            <div>
-              <div class="carousel max-w-128 max-h-128">
-                <div id="slide5" class="carousel-item relative w-full">
-                  <img src="media/Alice/2.gif" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide8" class="btn btn-circle">❮</a>
-                    <a href="#slide6" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-                <div id="slide6" class="carousel-item relative w-full">
-                  <img src="media/Alice/3.gif" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide5" class="btn btn-circle">❮</a>
-                    <a href="#slide7" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-                <div id="slide7" class="carousel-item relative w-full">
-                  <img src="media/Alice/4.gif" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide6" class="btn btn-circle">❮</a>
-                    <a href="#slide8" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-                <div id="slide8" class="carousel-item relative w-full">
-                  <img src="media/Alice/1.png" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide7" class="btn btn-circle">❮</a>
-                    <a href="#slide5" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-              </div>
+          </div>
+          <div>
+            <div class="carousel w-full">
+              <video src="media/ChessMR/optimized.mp4" controls></video>
             </div>
           </div>
+        </div>
 
-          <!-- Alzheimer -->
-          <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
+        <!-- Peaceful Valley -->
+        <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
+          <div>
             <div class="carousel max-w-128 max-h-128">
-              <div class="carousel">
-                <div id="slide9" class="carousel-item relative w-full">
-                  <img src="media/Alz/1.jpg" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide11" class="btn btn-circle">❮</a>
-                    <a href="#slide10" class="btn btn-circle">❯</a>
-                  </div>
+              <div id="slide1" class="carousel-item relative w-full">
+                <img src="media/Valley/1.png" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide4" class="btn btn-circle">❮</a>
+                  <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
-                <div id="slide10" class="carousel-item relative w-full">
-                  <img src="media/Alz/5.png" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide9" class="btn btn-circle">❮</a>
-                    <a href="#slide11" class="btn btn-circle">❯</a>
-                  </div>
+              </div>
+              <div id="slide2" class="carousel-item relative w-full">
+                <img src="media/Valley/2.png" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide1" class="btn btn-circle">❮</a>
+                  <a href="#slide3" class="btn btn-circle">❯</a>
                 </div>
-                <div id="slide11" class="carousel-item relative w-full">
-                  <img src="media/Alz/3.png" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide10" class="btn btn-circle">❮</a>
-                    <a href="#slide12" class="btn btn-circle">❯</a>
-                  </div>
+              </div>
+              <div id="slide3" class="carousel-item relative w-full">
+                <img src="media/Valley/3.gif" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide2" class="btn btn-circle">❮</a>
+                  <a href="#slide4" class="btn btn-circle">❯</a>
                 </div>
-                <div id="slide12" class="carousel-item relative w-full">
-                  <img src="media/Alz/4.png" class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide11" class="btn btn-circle">❮</a>
-                    <a href="#slide9" class="btn btn-circle">❯</a>
-                  </div>
+              </div>
+              <div id="slide4" class="carousel-item relative w-full">
+                <img src="media/Valley/4.png" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide3" class="btn btn-circle">❮</a>
+                  <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
               </div>
             </div>
-            <div class="flex flex-col max-w-prose text-xl">
-              <h2 class="text-3xl">Lateral Flow Strip Quantifier</h2>
-              <div class="divider divider-warning rounded-lg m-0"></div>
-              <p>
-                Interdisciplinary project made for the immunologist Dr. Chuanhai Cao. He developed rapid tests for
-                detecting Alzheimer's biomarkers: Aβ42, Aβ40, and Aβ oligomers.
-              </p>
-              <br />
-              <p>
-                His vision is to make testing accessible to everyone. The strip significantly lowers testing costs from
-                thousands to less than $100, while providing results within minutes instead of days. These results are
-                given as a visual readout, but without a built-in way to quantify results.
-              </p>
-              <br />
-              <p>
-                We developed an image processing application that quantifies the visual readout through optical density
-                analysis, converting subjective line intensity into objective data. In addition, we have also built an
-                accessible web page where users can easily upload images and view their test results in a clear,
-                user-friendly format.
-              </p>
+          </div>
+          <div class="flex flex-col max-w-prose text-xl">
+            <h2 class="text-3xl">Peaceful Valley</h2>
+            <div class="divider divider-warning rounded-lg m-0"></div>
+            <p>A mixed-reality storytelling experience designed to raise environmental awareness</p>
+            <br />
+            <p>
+              This one is special. It's the first Hackathon project that earned me and my team a prize. It's also the
+              first project where our team prioritized artistic style over fancy mechanics. We wanted to create a wow
+              effect not by using unseen features, but through how the game feels.
+            </p>
+            <br />
+            <p>
+              Visuals, story, music, and sound effects - all of these were selected to build something enjoyable to
+              play. All these elements were used to convey a message: we must protect our planet.
+            </p>
+            <a href="https://www.youtube.com/watch?v=byPcyoUJvHc"
+              class="btn bg-[#FF0000] text-white border-[#C20000] my-10 min-w-[20%] mx-auto">
+              <svg aria-label="YouTube logo" width="16" height="16" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                  d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.3 3.5 12 3.5 12 3.5s-7.3 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2.1.6 9.4.6 9.4.6s7.3 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.2V8.8l6.2 3.2-6.2 3.2Z" />
+              </svg>
+              Full Playthrough ( ~5 min)
+            </a>
+          </div>
+        </div>
+
+        <!-- Ask Alice -->
+        <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
+          <div class="flex flex-col max-w-prose text-xl">
+            <h2 class="text-3xl">eXploRe a Wonderland of Inquiry</h2>
+            <div class="divider divider-warning rounded-lg m-0"></div>
+
+            <p>
+              VR game for school kids studying Alice in Wonderland. It allows kids to follow Alice's journey while
+              challenging their logic and problem-solving skills.
+            </p>
+            <br />
+            <p>
+              For me and our development team, this was our first professional VR project. Our client was flexible
+              with the mechanics, giving us room to experiment with VR - which we enthusiastically did.
+            </p>
+            <a href="https://youtu.be/X5-dXYkd0J0"
+              class="btn bg-[#FF0000] text-white border-[#C20000] mt-10 min-w-[20%] mx-auto">
+              <svg aria-label="YouTube logo" width="16" height="16" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                  d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.3 3.5 12 3.5 12 3.5s-7.3 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2.1.6 9.4.6 9.4.6s7.3 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.2V8.8l6.2 3.2-6.2 3.2Z" />
+              </svg>
+              Full Playthrough ( ~4 min)
+            </a>
+            <div class="collapse">
+              <div class="collapse-title cursor-pointer font-bold px-0">▼ Read more</div>
+
+              <input type="checkbox" class="peer" />
+
+              <div class="collapse-content space-y-4 px-0">
+                <p>The project consists of three main parts:</p>
+                <ul class="list-disc ml-5 list-inside">
+                  <li>Intro level with interactive menu</li>
+                  <li>Hallway scene, acting as a hub between levels</li>
+                  <li>Boat building level, challenging kids to build a boat to cross the river</li>
+                </ul>
+
+                <p>I worked on the boat building, and my main challenges were developing:</p>
+                <ul class="list-disc ml-5 list-inside">
+                  <li>Boats assembly (<strong>gif 1</strong>)</li>
+                  <li>Paddling (<strong>gif 2</strong>)</li>
+                  <li>Resizing effects (<strong>gif 3</strong>)</li>
+                </ul>
+
+                <p>
+                  While the first two were relatively easy to implement, the last one proved quite challenging. Beyond
+                  figuring out how to properly scale the player without breaking the game, this was when I first
+                  experienced motion sickness in VR and had to mitigate it. In the end, it worked smoothly, but
+                  testing and development was physically demanding.
+                </p>
+              </div>
             </div>
           </div>
-
-          <!-- Egmont Key -->
-          <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
-            <div class="flex flex-col max-w-prose text-xl">
-              <h2 class="text-3xl">Egmont Key AR Tour</h2>
-              <div class="divider divider-warning rounded-lg m-0"></div>
-              <p>
-                My first professional project. Mobile XR tour guide. Developed for Egmont Key State Park, an island
-                near Tampa serving as a habitat for turtles and mosquitoes. The app allowed visitors to navigate around
-                the island using Bluetooth trackers and see the historical appearance of virtually restored buildings
-                through AR.
-              </p>
-              <br />
-              <p>
-                Though not the most remarkable project in terms of design or technical execution, it will always have a
-                special place in my heart as the one that introduced me to the world of XR.
-              </p>
-            </div>
-            <div class="carousel max-h-128 max-w-[30%]">
-              <div class="carousel">
-                <div id="slide13" class="carousel-item relative w-full">
-                  <img src="media/EgmontKey/1.jpg" class="w-auto mx-auto" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide15" class="btn btn-circle">❮</a>
-                    <a href="#slide14" class="btn btn-circle">❯</a>
-                  </div>
+          <div>
+            <div class="carousel max-w-128 max-h-128">
+              <div id="slide5" class="carousel-item relative w-full">
+                <img src="media/Alice/2.gif" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide8" class="btn btn-circle">❮</a>
+                  <a href="#slide6" class="btn btn-circle">❯</a>
                 </div>
-                <div id="slide14" class="carousel-item relative w-full">
-                  <img src="media/EgmontKey/2.jpg" class="w-auto mx-auto" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide13" class="btn btn-circle">❮</a>
-                    <a href="#slide15" class="btn btn-circle">❯</a>
-                  </div>
+              </div>
+              <div id="slide6" class="carousel-item relative w-full">
+                <img src="media/Alice/3.gif" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide5" class="btn btn-circle">❮</a>
+                  <a href="#slide7" class="btn btn-circle">❯</a>
                 </div>
-                <div id="slide15" class="carousel-item relative w-full">
-                  <img src="media/EgmontKey/3.jpg" class="w-auto mx-auto" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide14" class="btn btn-circle">❮</a>
-                    <a href="#slide13" class="btn btn-circle">❯</a>
-                  </div>
+              </div>
+              <div id="slide7" class="carousel-item relative w-full">
+                <img src="media/Alice/4.gif" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide6" class="btn btn-circle">❮</a>
+                  <a href="#slide8" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide8" class="carousel-item relative w-full">
+                <img src="media/Alice/1.png" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide7" class="btn btn-circle">❮</a>
+                  <a href="#slide5" class="btn btn-circle">❯</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Contacts -->
-        <div
-          id="contacts"
-          class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl mt-15 mb-5"
-        >
-          Contacts
+        <!-- Alzheimer -->
+        <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
+          <div class="carousel max-w-128 max-h-128">
+            <div class="carousel">
+              <div id="slide9" class="carousel-item relative w-full">
+                <img src="media/Alz/1.jpg" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide11" class="btn btn-circle">❮</a>
+                  <a href="#slide10" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide10" class="carousel-item relative w-full">
+                <img src="media/Alz/5.png" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide9" class="btn btn-circle">❮</a>
+                  <a href="#slide11" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide11" class="carousel-item relative w-full">
+                <img src="media/Alz/3.png" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide10" class="btn btn-circle">❮</a>
+                  <a href="#slide12" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide12" class="carousel-item relative w-full">
+                <img src="media/Alz/4.png" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide11" class="btn btn-circle">❮</a>
+                  <a href="#slide9" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col max-w-prose text-xl">
+            <h2 class="text-3xl">Lateral Flow Strip Quantifier</h2>
+            <div class="divider divider-warning rounded-lg m-0"></div>
+            <p>
+              Interdisciplinary project made for the immunologist Dr. Chuanhai Cao. He developed rapid tests for
+              detecting Alzheimer's biomarkers: Aβ42, Aβ40, and Aβ oligomers.
+            </p>
+            <br />
+            <p>
+              His vision is to make testing accessible to everyone. The strip significantly lowers testing costs from
+              thousands to less than $100, while providing results within minutes instead of days. These results are
+              given as a visual readout, but without a built-in way to quantify results.
+            </p>
+            <br />
+            <p>
+              We developed an image processing application that quantifies the visual readout through optical density
+              analysis, converting subjective line intensity into objective data. In addition, we have also built an
+              accessible web page where users can easily upload images and view their test results in a clear,
+              user-friendly format.
+            </p>
+          </div>
         </div>
-        <div class="mb-20">
-          <div class="flex flex-row bg-base-200 rounded-lg p-6 justify-center gap-x-10">
-            <!-- Email -->
-            <a href="mailto:danylbulbas@gmail.com" class="btn bg-white text-black border-[#e5e5e5] text-xl">
-              <svg
-                aria-label="Email icon"
-                width="24"
-                height="24"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-              >
-                <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="black">
-                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
-                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-                </g>
-              </svg>
-              danylbulbas@gmail.com
-            </a>
 
-            <!-- GitHub -->
-            <a href="https://github.com/BulbasDanil" class="btn bg-black text-white border-black text-xl">
-              <svg
-                aria-label="GitHub logo"
-                width="24"
-                height="24"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  fill="white"
-                  d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
-                ></path>
-              </svg>
-              GitHub
-            </a>
-
-            <!-- LinkedIn -->
-            <a
-              href="https://www.linkedin.com/in/danylbulbas/"
-              class="btn bg-[#0967C2] text-white border-[#0059b3] text-xl"
-            >
-              <svg
-                aria-label="LinkedIn logo"
-                width="24"
-                height="24"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 32 32"
-              >
-                <path
-                  fill="white"
-                  d="M26.111,3H5.889c-1.595,0-2.889,1.293-2.889,2.889V26.111c0,1.595,1.293,2.889,2.889,2.889H26.111c1.595,0,2.889-1.293,2.889-2.889V5.889c0-1.595-1.293-2.889-2.889-2.889ZM10.861,25.389h-3.877V12.87h3.877v12.519Zm-1.957-14.158c-1.267,0-2.293-1.034-2.293-2.31s1.026-2.31,2.293-2.31,2.292,1.034,2.292,2.31-1.026,2.31-2.292,2.31Zm16.485,14.158h-3.858v-6.571c0-1.802-.685-2.809-2.111-2.809-1.551,0-2.362,1.048-2.362,2.809v6.571h-3.718V12.87h3.718v1.686s1.118-2.069,3.775-2.069,4.556,1.621,4.556,4.975v7.926Z"
-                  fill-rule="evenodd"
-                ></path>
-              </svg>
-              LinkedIn
-            </a>
-
-            <!-- Telegram -->
-            <a href="https://t.me/danylbulbas" class="btn bg-[#0088cc] text-white border-[#0059b3] text-xl">
-              <svg
-                aria-label="Telegram logo"
-                width="24"
-                height="24"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 496 512"
-                fill="currentColor"
-              >
-                <path
-                  d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z"
-                />
-              </svg>
-              Telegram
-            </a>
+        <!-- Egmont Key -->
+        <div class="flex flex-row justify-evenly gap-x-6 px-6 bg-base-200 rounded-lg p-6">
+          <div class="flex flex-col max-w-prose text-xl">
+            <h2 class="text-3xl">Egmont Key AR Tour</h2>
+            <div class="divider divider-warning rounded-lg m-0"></div>
+            <p>
+              My first professional project. Mobile XR tour guide. Developed for Egmont Key State Park, an island
+              near Tampa serving as a habitat for turtles and mosquitoes. The app allowed visitors to navigate around
+              the island using Bluetooth trackers and see the historical appearance of virtually restored buildings
+              through AR.
+            </p>
+            <br />
+            <p>
+              Though not the most remarkable project in terms of design or technical execution, it will always have a
+              special place in my heart as the one that introduced me to the world of XR.
+            </p>
+          </div>
+          <div class="carousel max-h-128 max-w-[30%]">
+            <div class="carousel">
+              <div id="slide13" class="carousel-item relative w-full">
+                <img src="media/EgmontKey/1.jpg" class="w-auto mx-auto" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide15" class="btn btn-circle">❮</a>
+                  <a href="#slide14" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide14" class="carousel-item relative w-full">
+                <img src="media/EgmontKey/2.jpg" class="w-auto mx-auto" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide13" class="btn btn-circle">❮</a>
+                  <a href="#slide15" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide15" class="carousel-item relative w-full">
+                <img src="media/EgmontKey/3.jpg" class="w-auto mx-auto" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide14" class="btn btn-circle">❮</a>
+                  <a href="#slide13" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </main>
-  </body>
 
-  <script>
-    document.querySelectorAll(".carousel a.btn-circle").forEach((link) => {
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
+      <!-- Contacts -->
+      <div id="contacts" class="divider divider-warning divider-center bg-base-100 rounded-lg p-6 text-5xl mt-15 mb-5">
+        Contacts
+      </div>
+      <div class="mb-20">
+        <div class="flex flex-row bg-base-200 rounded-lg p-6 justify-center gap-x-10">
+          <!-- Email -->
+          <a href="mailto:danylbulbas@gmail.com" class="btn bg-white text-black border-[#e5e5e5] text-xl">
+            <svg aria-label="Email icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="black">
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </g>
+            </svg>
+            danylbulbas@gmail.com
+          </a>
 
-        const target = document.querySelector(link.getAttribute("href"));
-        if (!target) return;
+          <!-- GitHub -->
+          <a href="https://github.com/BulbasDanil" class="btn bg-black text-white border-black text-xl">
+            <svg aria-label="GitHub logo" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path fill="white"
+                d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z">
+              </path>
+            </svg>
+            GitHub
+          </a>
 
-        target.scrollIntoView({
-          behavior: "smooth",
-          block: "nearest",
-          inline: "start",
-        });
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/danylbulbas/"
+            class="btn bg-[#0967C2] text-white border-[#0059b3] text-xl">
+            <svg aria-label="LinkedIn logo" width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32">
+              <path fill="white"
+                d="M26.111,3H5.889c-1.595,0-2.889,1.293-2.889,2.889V26.111c0,1.595,1.293,2.889,2.889,2.889H26.111c1.595,0,2.889-1.293,2.889-2.889V5.889c0-1.595-1.293-2.889-2.889-2.889ZM10.861,25.389h-3.877V12.87h3.877v12.519Zm-1.957-14.158c-1.267,0-2.293-1.034-2.293-2.31s1.026-2.31,2.293-2.31,2.292,1.034,2.292,2.31-1.026,2.31-2.292,2.31Zm16.485,14.158h-3.858v-6.571c0-1.802-.685-2.809-2.111-2.809-1.551,0-2.362,1.048-2.362,2.809v6.571h-3.718V12.87h3.718v1.686s1.118-2.069,3.775-2.069,4.556,1.621,4.556,4.975v7.926Z"
+                fill-rule="evenodd"></path>
+            </svg>
+            LinkedIn
+          </a>
+
+          <!-- Telegram -->
+          <a href="https://t.me/danylbulbas" class="btn bg-[#0088cc] text-white border-[#0059b3] text-xl">
+            <svg aria-label="Telegram logo" width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 496 512" fill="currentColor">
+              <path
+                d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z" />
+            </svg>
+            Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+<script>
+  document.querySelectorAll(".carousel a.btn-circle").forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      const target = document.querySelector(link.getAttribute("href"));
+      if (!target) return;
+
+      target.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+        inline: "start",
       });
     });
-  </script>
+  });
+</script>
+
 </html>
