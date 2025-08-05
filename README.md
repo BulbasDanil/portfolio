@@ -7,7 +7,7 @@
 - Node.js
 - Tailwind
 - daisyUI
-- 5 Cups of Espresso
+- 6 Espresso
 
 
 ### To-do
