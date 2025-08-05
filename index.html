@@ -142,7 +142,13 @@
 
             <div class="collapse">
               <input type="checkbox" id="chess-collapse" class="peer hidden" />
-              <label for="chess-collapse" class="collapse-title cursor-pointer font-semibold">▼ Read more</label>
+              <input id="chess-collapse" type="checkbox" class="peer sr-only" />
+
+              <label for="chess-collapse" class="collapse-title cursor-pointer font-semibold
+         before:inline-block before:mr-1 before:content-['▶']
+         peer-checked:before:content-['▼'] select-none">
+                Read more
+              </label>
               <div class="collapse-content mt-2 space-y-2 hidden peer-checked:block">
                 <p>The app works like this:</p>
                 <ul class="list-disc ml-5 space-y-1">
@@ -253,7 +259,13 @@
               Full Playthrough ( ~4 min)
             </a>
             <div class="collapse">
-              <div class="collapse-title cursor-pointer font-bold px-0">▼ Read more</div>
+              <input id="chess-collapse" type="checkbox" class="peer sr-only" />
+
+              <label for="chess-collapse" class="collapse-title cursor-pointer font-semibold
+         before:inline-block before:mr-1 before:content-['▶']
+         peer-checked:before:content-['▼'] select-none">
+                Read more
+              </label>
 
               <input type="checkbox" class="peer" />
 
@@ -357,7 +369,13 @@
               detecting Alzheimer's biomarkers: Aβ42, Aβ40, and Aβ oligomers. We digitized the results processing.
             </p>
             <div class="collapse">
-              <div class="collapse-title cursor-pointer font-bold px-0">▼ Read more</div>
+              <input id="chess-collapse" type="checkbox" class="peer sr-only" />
+
+              <label for="chess-collapse" class="collapse-title cursor-pointer font-semibold
+         before:inline-block before:mr-1 before:content-['▶']
+         peer-checked:before:content-['▼'] select-none">
+                Read more
+              </label>
 
               <input type="checkbox" class="peer" />
 
